@@ -1,11 +1,11 @@
-name: londonmapbot
+name: poeusean
 
 on:
   schedule:
-    - cron: '42 0/2 * * *'  # once every two hours
+    - cron: '23 8/24 * * *'  # once every two hours
 
 jobs:
-  londonmapbot-post:
+  poeusean-post:
     runs-on: macOS-latest
     env:
       TWITTER_CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
